@@ -1,0 +1,48 @@
+node-toidentifier (1.0.0-5) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on mocha.
+
+  [ Yadd ]
+  * Declare compliance with policy 4.6.0
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Fix filenamemangle
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs auto test & install
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Tue, 02 Nov 2021 18:21:33 +0100
+
+node-toidentifier (1.0.0-4) unstable; urgency=medium
+
+  * Bump debhelper from old 12 to 13.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Wed, 15 Sep 2021 11:58:21 +0100
+
+node-toidentifier (1.0.0-3) unstable; urgency=medium
+
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.2.1, no changes needed.
+  * Apply multi-arch hints.
+    + node-toidentifier: Add Multi-Arch: foreign.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Sat, 28 Aug 2021 22:54:54 +0100
+
+node-toidentifier (1.0.0-2) unstable; urgency=medium
+
+  * Source only upload
+
+ -- Bastien Roucariès <rouca@debian.org>  Sun, 12 Aug 2018 16:33:28 +0200
+
+node-toidentifier (1.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #905716)
+
+ -- Bastien Roucariès <rouca@debian.org>  Wed, 08 Aug 2018 22:22:22 +0200

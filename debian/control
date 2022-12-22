@@ -1,0 +1,26 @@
+Source: node-toidentifier
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-toidentifier
+Vcs-Git: https://salsa.debian.org/js-team/node-toidentifier.git
+Homepage: https://github.com/component/toidentifier
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-toidentifier
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Convert a string of words to a JavaScript identifier
+ This module given a string as the argument, will  transform it to an identifier
+ (variable name for instance) using stable rules.
+ .
+ It is a dependency of Express.js, a web application framework for Node.js.
+ .
+ Node.js is an event-based server-side JavaScript engine.
